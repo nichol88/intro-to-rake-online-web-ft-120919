@@ -10,7 +10,7 @@ namespace :greeting do
   end
 
   task :hola do
-    puts 'Hola!'
+    puts 'hola de Rake!'
   end
 end
 
