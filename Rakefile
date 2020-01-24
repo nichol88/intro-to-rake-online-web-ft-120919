@@ -1,3 +1,6 @@
+task :console do
+  
+end
 
 task :environment do
   require_relative './config/environment'
@@ -23,4 +26,6 @@ namespace :db do
   task :seed do
 
   end
+
+
 end
