@@ -1,5 +1,5 @@
 task :console do
-  
+
 end
 
 task :environment do
@@ -24,7 +24,7 @@ namespace :db do
   end
 
   task :seed do
-
+    require_relative './db/seeds.rb'
   end
 
 
